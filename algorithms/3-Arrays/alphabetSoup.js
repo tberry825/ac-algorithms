@@ -15,20 +15,20 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 /**
 Examples:
 
-var result = alphabetSoup("hello");
+let result = alphabetSoup("hello");
 console.log(result) // "ehllo"
 
-var result = alphabetSoup("");
+let result = alphabetSoup("");
 console.log(result) // ""
 
-var result = alphabetSoup("f");
+let result = alphabetSoup("f");
 console.log(result) // "f"
 
-var result = alphabetSoup("my string");
+let result = alphabetSoup("my string");
 console.log(result) // " gimnrsty"
 
 Bonus:
-var result = alphabetSoup("my string oh my");
+let result = alphabetSoup("my string oh my");
 console.log(result) // "ghimmnorstyy"
 
 **/

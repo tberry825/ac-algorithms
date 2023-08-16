@@ -1,6 +1,6 @@
 /*
 
-Given a string, swap the case of each character and retunr it.
+Given a string, swap the case of each character and return it.
 Assume the string has only letters.
 
 Hint 1: Check out indexOf() method at
@@ -17,14 +17,14 @@ Bonus: If the string has non-letter characters, leave them as they are.
 /**
 Examples:
 
-var result = swapCase("Hello World")
+let result = swapCase("Hello World")
 console.log(result) // "hELLO wORLD"
 
-var result = swapCase("");
+let result = swapCase("");
 console.log(result) // ""
 
 Bonus:
-var result = swapCase("Oh, Hello!!");
+let result = swapCase("Oh, Hello!!");
 console.log(result) // "oH, hELLO!!"
 
 **/

@@ -11,16 +11,16 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 /**
 Examples:
 
-var result = dashInsert("454793");
+let result = dashInsert("454793");
 console.log(result) // "4547-9-3"
 
-var result = dashInsert("44");
+let result = dashInsert("44");
 console.log(result) // "44"
 
-var result = dashInsert("0");
+let result = dashInsert("0");
 console.log(result) // "0"
 
-var result = isBigger("13");
+let result = isBigger("13");
 console.log(result) // "1-3"
 
 **/

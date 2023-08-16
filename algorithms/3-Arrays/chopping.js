@@ -1,8 +1,6 @@
 //CHOP CHOP!
 
-//Return the remaining elements of an array after chopping off n elements from the head.
-
-//The head means the beginning of the array, or the zeroth index.
+//Return the remaining elements of an array after chopping off n elements from the beginning of the array.
 
 //Here are some helpful links:
 

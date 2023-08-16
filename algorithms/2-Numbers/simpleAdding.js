@@ -23,25 +23,25 @@ console.log(1.3%1) // 0.3 */
 /**
 Examples:
 
-var result = simpleAdding(3);
+let result = simpleAdding(3);
 console.log(result); // 6
 
-var result = simpleAdding(5);
+let result = simpleAdding(5);
 console.log(result); // 15
 
-var result = simpleAdding(-45);
+let result = simpleAdding(-45);
 console.log(result); // 0
 
-var result = simpleAdding();
+let result = simpleAdding();
 console.log(result); // 0
 
-var result = simpleAdding("number");
+let result = simpleAdding("number");
 console.log(result); // 0
 
-var result = simpleAdding([3,4,5]]);
+let result = simpleAdding([3,4,5]]);
 console.log(result); // 0
 
-var result = simpleAdding(6.34);
+let result = simpleAdding(6.34);
 console.log(result); // 21
 
 **/

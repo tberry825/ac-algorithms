@@ -11,28 +11,28 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/type
 /**
 Examples:
 
-var result = isBigger(3,4);
+let result = isBigger(3,4);
 console.log(result) // false
 
-var result = isBigger(13,4);
+let result = isBigger(13,4);
 console.log(result) // true
 
-var result = isBigger(4.00001,4);
+let result = isBigger(4.00001,4);
 console.log(result) // true
 
-var result = isBigger(4,4);
+let result = isBigger(4,4);
 console.log(result) // 0
 
-var result = isBigger("potato",4);
+let result = isBigger("potato",4);
 console.log(result) // -1
 
-var result = isBigger("4",4);
+let result = isBigger("4",4);
 console.log(result) // -1
 
-var result = isBigger(3);
+let result = isBigger(3);
 console.log(result) // -1
 
-var result = isBigger();
+let result = isBigger();
 console.log(result) // -1
 
 **/

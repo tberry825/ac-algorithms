@@ -11,22 +11,22 @@ Hint: You may not need to check numbers up to num to check for primeness.
 
 Examples:
 
-var result = isPrime(1)
+let result = isPrime(1)
 console.log(result) // false
 
-var result = isPrime(2)
+let result = isPrime(2)
 console.log(result) // true
 
-var result = isPrime(3)
+let result = isPrime(3)
 console.log(result) // true
 
-var result = isPrime(4)
+let result = isPrime(4)
 console.log(result) // false
 
-var result = isPrime(29)
+let result = isPrime(29)
 console.log(result) // true
 
-var result = isPrime(51)
+let result = isPrime(51)
 console.log(result) // false
 
 **/
