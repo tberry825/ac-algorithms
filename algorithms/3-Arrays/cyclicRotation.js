@@ -1,19 +1,29 @@
-///**
-// * Created by yoneta on 3/23/16.
-// */
+/**
+1. Read through the function and write comments to explain what is happening in the code.
+2. What are the inputs for this function? 
+3. What is the expected output?
+4. What is happening where rotations = rotations % arrayLength; ?
+5. How would you refactor this to NOT use the variable arrayLength?
+ */
 
-//A zero-indexed array A consisting of N integers is given. Rotation of the array means that each element is shifted right by one index, and the last element of the array is also moved to the first place.
-//
-//    For example, the rotation of array A = [3, 8, 9, 7, 6] is [6, 3, 8, 9, 7]. The goal is to rotate array A K times; that is, each element of A will be shifted to the right by K indexes.
-//
-//    Write a function:
-//
-//function cyclicRotation(A, K);
-//
-//that, given a zero-indexed array A consisting of N integers and an integer K, returns the array A rotated K times.
-//
-//    For example, given array A = [3, 8, 9, 7, 6] and K = 3, the function should return [9, 7, 6, 3, 8].\
-
-function cyclicRotation(arr, rotation){
-    //Your code here...
+// the first parameter is expecting an array and the second is expecting a number
+function cyclicRotation(array, rotations) {
+    var arrayLength = array.length;
+    if (arrayLength === 0) {
+        return array;
+    }
+    rotations = rotations % arrayLength; // To handle cases where rotations > arrayLength
+    
+    for (var i = 0; i < rotations; i++) {
+        var lastElement = array.pop();
+        array.unshift(lastElement);
+    }
+    
+    return array;
 }
+
+// Example usage
+var inputArray = [3, 8, 9, 7, 6];
+var rotations = 3;
+var rotatedArray = cyclicRotation(inputArray, rotations);
+console.log(rotatedArray); // Output: [9, 7, 6, 3, 8]

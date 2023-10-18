@@ -1,45 +1,22 @@
-/*
-Given two numbers, a, b, as inputs, return true if a > b,
-return false if a < b, return 0 otherwise.
-
-Bonus 1: If a or b is undefined or not a number, then return -1.
-Hint: Chekout typeof() operator at
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-
-*/
-
 /**
-Examples:
-
-let result = isBigger(3,4);
-console.log(result) // false
-
-let result = isBigger(13,4);
-console.log(result) // true
-
-let result = isBigger(4.00001,4);
-console.log(result) // true
-
-let result = isBigger(4,4);
-console.log(result) // 0
-
-let result = isBigger("potato",4);
-console.log(result) // -1
-
-let result = isBigger("4",4);
-console.log(result) // -1
-
-let result = isBigger(3);
-console.log(result) // -1
-
-let result = isBigger();
-console.log(result) // -1
-
-**/
+1. Read through the function and write comments to explain what is happening in the code.
+2. What are the inputs for this function? 
+3. What is the expected output?
+4. Turn the output into a sentence: "a is not bigger than b", or "a is bigger"
+ */
 
 
+//pass in numbers for both a and b 
 
 function isBigger(a, b) {
-	//Your code here
-	
+    if (typeof a !== 'number' || typeof b !== 'number' || isNaN(a) || isNaN(b)) {
+        return -1;
+    } else if (a > b) {
+        return true;
+    } else if (a < b) {
+        return false;
+    } else {
+        return 0;
+    }
 }
+

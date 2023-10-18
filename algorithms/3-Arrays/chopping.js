@@ -1,23 +1,11 @@
-//CHOP CHOP!
+/**
+1. Read through the function and write comments to explain what is happening in the code.
+2. What are the inputs for this function? 
+3. What is the expected output?
+ */
 
-//Return the remaining elements of an array after chopping off n elements from the beginning of the array.
-
-//Here are some helpful links:
-
-//Array.slice() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
-
-//Array.splice() //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+// the first parameter is expecting an array and the second is expecting a number
 
 function chopper(arr, howMany) {
-  // your code here
+  return arr.slice(howMany);
 }
-
-chopper([1, 2, 3], 2);
-
-// TEST CASES
-// chopper([1, 2, 3], 2) should return [3].
-// chopper([1, 2, 3], 0) should return [1, 2, 3].
-// chopper([1, 2, 3], 9) should return [].
-// chopper([1, 2, 3], 4) should return [].
-// chopper(["burgers", "fries", "shake"], 1) should return ["fries", "shake"].
-// chopper([1, 2, "chicken", 3, "potatoes", "cheese", 4], 5) should return ["cheese", 4].

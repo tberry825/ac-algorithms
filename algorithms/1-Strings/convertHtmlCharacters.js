@@ -1,24 +1,34 @@
-//Convert HTML Entities
-//Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
+/**
+1. Read through the function and write comments to explain what is happening in the code.
+2. What are the inputs for this function? 
+3. What is the expected output?
+4. How would we change this to add all of the numbers?
+5. Change the function so that all lowercase a's turn to uppercase A's.
+ */
 
-//Helpful Links
-//https://dev.w3.org/html5/html-author/charref
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
+// pass in a string that includes one of the following symbols: &, <, >, "", or '
+
 
 
 function convertHTML(str) {
-  // &colon;&rpar;
-  return str;
+  let convertedString = "";
+
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
+    if (char === '&') {
+      convertedString += '&amp;';
+    } else if (char === '<') {
+      convertedString += '&lt;';
+    } else if (char === '>') {
+      convertedString += '&gt;';
+    } else if (char === '"') {
+      convertedString += '&quot;';
+    } else if (char === "'") {
+      convertedString += '&apos;';
+    } else {
+      convertedString += char;
+    }
+  }
+
+  return convertedString;
 }
-
-convertHTML("Dolce & Gabbana");
-
-//TEST CASES
-
-// convertHTML("Dolce & Gabbana") should return Dolce &​amp; Gabbana.
-// convertHTML("Hamburgers < Pizza < Tacos") should return Hamburgers &​lt; Pizza &​lt; Tacos.
-// convertHTML("Sixty > twelve") should return Sixty &​gt; twelve.
-// convertHTML('Stuff in "quotation marks"') should return Stuff in &​quot;quotation marks&​quot;.
-// convertHTML("Shindler's List") should return Shindler&​apos;s List.
-// convertHTML("<>") should return &​lt;&​gt;.
-// convertHTML("abc") should return abc.

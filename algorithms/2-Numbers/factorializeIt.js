@@ -1,14 +1,19 @@
-//Challenge time! 
-//Return the factorial of the provided integer.
-
-// If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n. Factorials are often represented with the shorthand notation n!
-
-// For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
-
-// Check out Arithmetic Operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
+/**
+1. Read through the function and write comments to explain what is happening in the code.
+2. What are the inputs for this function? 
+3. What is the expected output?
+4. How would we change this to add all of the numbers?
+ */
 
 function factorializeIt(num) {
-  //your code here
+  if (num === 0) {
+    return 1;
+  } else {
+    let result = 1;
+    for (let i = 1; i <= num; i++) {
+      result *= i;
+    }
+    return result;
+  }
 }
 
-factorializeIt(5);
