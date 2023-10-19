@@ -30,3 +30,7 @@ Exercises
 3. [Longest Word Algorithm](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/1-Strings/dashInsert.js)
 4. [Validate User](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/validateUser.js)
 5. [Find Duplicates](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/findDuplicates.js)
+
+More Practice
+-------------------------
+All other algorithms in the repo are extra practice. If you want to solve them and receive feedback, simply slack the link to the repo to your instructor.
