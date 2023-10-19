@@ -14,7 +14,19 @@ repository's main branch to your annicannons branch.
 
 Have fun!
 
+Algorithms we will go over in class
+-------------------------
+1. [String Reversal](https://anniecannons.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/learn/quiz/4990654#overview)
+2. [Convert HTML Characters](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/1-Strings/convertHtmlCharacters.js)
+3. [Dash Insert](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/1-Strings/dashInsert.js)
+4. [Object Search](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/objectSearch.js)
+5. [Filter by Property](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/filterByProperty.js)
+6. [Collection Sort](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/4-Objects/collectionSort.js)
+
 Exercises
 -------------------------
 1. [Turn the graphic into a decision tree](https://github.com/AnnieCannons/ac-algorithms/tree/main/algorithms/Decision-tree-graphic)
 2. [The importance of the coding interview videos](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/Udemy/Interview-Video-Assignment/README.md)
+3. [Longest Word Algorithm](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/1-Strings/dashInsert.js)
+4. [Validate User](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/validateUser.js)
+5. [Find Duplicates](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/findDuplicates.js)
