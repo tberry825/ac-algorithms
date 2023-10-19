@@ -13,3 +13,7 @@ Once you're done, push your changes to GitHub and issue a pull request from your
 repository's main branch to your annicannons branch. 
 
 Have fun!
+
+Exercises
+-------------------------
+1. [The importance of the coding interview videos](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/Udemy/Interview-Video-Assignment/README.md)
