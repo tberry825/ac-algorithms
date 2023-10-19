@@ -2,6 +2,9 @@
 
 Welcome to Algorithm Problems. The algorithms are organized by skillset used: Strings, Numbers, Arrays, Objects, User Input, and Bonus items. 
 
+[Class Sildes](https://www.canva.com/design/DAFw4hCGKaM/T94msKC0ispyhPXtfPRzyQ/view?utm_content=DAFw4hCGKaM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+--------------------------
+
 Getting a Copy of the Repo
 --------------------------
 If you haven't already, fork the repository on GitHub and clone your newly created
