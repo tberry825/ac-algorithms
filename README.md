@@ -28,7 +28,7 @@ Algorithms we will go over in class
 
 Exercises
 -------------------------
-1. [Turn the graphic into a decision tree](https://github.com/AnnieCannons/ac-algorithms/tree/main/algorithms/Decision-tree-graphic)
+1. [Turn the graphic into an if/else statement](https://github.com/AnnieCannons/ac-algorithms/tree/main/algorithms/Decision-tree-graphic)
 2. [The importance of the coding interview videos](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/Udemy/Interview-Video-Assignment/README.md)
 3. [Longest Word Algorithm](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/1-Strings/dashInsert.js)
 4. [Validate User](https://github.com/AnnieCannons/ac-algorithms/blob/main/algorithms/3-Arrays-and-Objects/validateUser.js)
