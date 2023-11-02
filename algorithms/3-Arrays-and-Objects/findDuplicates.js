@@ -19,8 +19,24 @@ Steps:
 6. After iterating through the entire array, if no duplicates are found, return false.
  */
 
+/*Pseudo Code:
+-create an empty object
+ - -creact a variable that equals to an empty object
+iterate means to do something over again or repeat. 
+
+
+*/
+
 function hasDuplicates(arr) {
-   
+    let numCount = {}; //1. Create an empty object to store encountered numbers.
+    for (let i = 0; i < arr.length; i++) { //For loop #3-#5
+        if (numCount[arr[i]] !== undefined) {
+            return true;
+        } else {
+            numCount[arr[i]] = 1;
+        }
+    }
+    return false; //#6
 }
 
 // Example usage

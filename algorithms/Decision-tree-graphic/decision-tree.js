@@ -1,4 +1,3 @@
- 
   function transportationOptions() {
     const choice = prompt("What is today's weather? (sunny, cloudy, rain):");
     let time;
@@ -13,7 +12,7 @@
     if (choice === "sunny") {
         time = parseInt(prompt("What time is it? Enter a number greater or less than 30:"));  //he parseInt() function parses a string argument and returns an integer 
         if (time > 30) {
-            alert("You have time to walk");
+            alert("You have time to walk"); //The alert() method is used to display a virtual alert box instead of input box
         } else if (time < 30) {
             alert("I see the bus in your future");
         }
