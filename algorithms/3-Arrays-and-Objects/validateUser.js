@@ -17,8 +17,15 @@ Steps
 3. Return true if a matching user is found; false otherwise.
  */
 
+/* Pseudo Code
+
+syntax for .some():
+
+
+*/
+
 function validateUserCredentials(users, inputUsername, inputPassword) {
-    
+   
 }
 
 // Example usage
