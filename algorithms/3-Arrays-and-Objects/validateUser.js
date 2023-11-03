@@ -18,14 +18,19 @@ Steps
  */
 
 /* Pseudo Code
+--The Javascript arr.some() method checks whether at least one of the elements of the array satisfies the condition checked by the argument method.
+--syntax for .some():
+--arr.some(callback(element,index,array),thisArg)
 
-syntax for .some():
-
-
+--you have an array registeredUsers containing user objects. The username variable is set to "user1" and the password variable is set to "password123". When you call validateUserCredentials(registeredUsers, username, password), it checks if there is a user in the registeredUsers array with the username "user1" and password "password123". Since there is a match, the function returns true.
 */
 
+
 function validateUserCredentials(users, inputUsername, inputPassword) {
-   
+    // Use the Array.prototype.some() method to check if any object in the registered users list matches the provided username and password.
+    return users.some(function(user) {
+        return user.username === inputUsername && user.password === inputPassword;
+    });
 }
 
 // Example usage
