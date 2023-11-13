@@ -7,7 +7,7 @@ Read through the function and write comments to explain what is happening in the
  2. How would you display the actual word in the console?
  */
 
-function findLongestWord() { //function to find out the longest word in a string after its inputed in the ()parentheses.
+function findLongestWord(str) { //function to find out the longest word in a string after its inputed in the ()parentheses.
   let words = str.split(' ');  //.split() is used to split the string into an array or words after the word is inputted.
   let longestWordLength = 0;  //used to keep track of the longest word in the string
 
