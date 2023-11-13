@@ -37,13 +37,7 @@
     // output  take the bus
 
     } else if (choice === "rain") {
-        rainy = prompt("Is it raining? (yes or no):").toLowerCase(); //The toLowerCase() method returns the value of the string converted to lower case
-        if (rainy === "yes") {
-            alert("Check what time the bus is coming, we don't want to be late or check for other options");
-        } else  {
-            alert("Invalid input. Please enter sunny, cloudy.");
-        }
-
+        alert("Check what time the bus is coming, we don't want to be late or check for other options");
     }
 }
 transportationOptions();
