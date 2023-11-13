@@ -17,7 +17,7 @@
             alert("I see the bus in your future");
         }
 
-    // if choice is  cloudy, ask waht if hungry?
+    // if choice is  cloudy, ask what if hungry?
     // if answer is yes, 
     // output walk
     // else if answer is no, 
